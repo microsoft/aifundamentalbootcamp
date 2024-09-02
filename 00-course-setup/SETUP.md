@@ -73,11 +73,11 @@ Let's take a quick look at the variable names to understand what they represent:
 
 | Variable  | Description  |
 | :--- | :--- |
-| HUGGING_FACE_API_KEY | This is the user access token you setup in your profile |
 | AZURE_OPENAI_KEY | This is the authorization key for using that service |
 | AZURE_OPENAI_ENDPOINT | This is the deployed endpoint for an Azure OpenAI resource |
 | AZURE_OPENAI_DEPLOYMENT | This is the _text generation_ model deployment endpoint |
 | AZURE_OPENAI_EMBEDDINGS_DEPLOYMENT | This is the _text embeddings_ model deployment endpoint |
+| HUGGING_FACE_API_KEY | This is the user access token you setup in your profile |
 | | |
 
 > [!NOTE]  
