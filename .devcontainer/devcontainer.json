@@ -13,23 +13,8 @@
 			//"installBicep": true,
 			"version": "latest"
 		},
-		// // Enable the following section if you want to use Conda in your container.
-		// "ghcr.io/devcontainers/features/conda:1": {
-		// 	"addCondaForge": true,
-		// 	"version": "4.12.0"
-		// },
-		"ghcr.io/devcontainers/features/git:1": {
-			"ppa": true,
-			"version": "latest"
-		},
 		"ghcr.io/devcontainers/features/powershell:1": {
 			"version": "7.4"
-		},
-		"ghcr.io/devcontainers/features/python:1": {
-			"installTools": true,
-			// // Enable the following section if you want to install JupyterLab in your container.
-			//"installJupyterlab": true,
-			"version": "3.12"
 		}
 	},
 
