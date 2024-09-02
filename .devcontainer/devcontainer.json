@@ -24,9 +24,6 @@
 			"installTools": true,
 			"installJupyterlab": true,
 			"version": "3.12"
-		},
-		"ghcr.io/azure/azure-dev/azd:0": {
-			"version": "stable"
 		}
 	},
 
