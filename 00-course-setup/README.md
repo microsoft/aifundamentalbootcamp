@@ -12,13 +12,17 @@ To start taking this course, you will need to complete the following steps.
 
 ### 2. Configure your working environment
 
-#### 2.1. Create a codespace (RECOMMENDED OPTION)
+#### 2.1. Create a Github Codespaces environment (RECOMMENDED OPTION)
 
 To avoid any dependency issues when running the code, we recommend running this course in a [GitHub Codespaces](https://github.com/features/codespaces?WT.mc_id=academic-105485-koreyst).
 
 This can be created by selecting the **Code** option on your forked version of this repo, selecting the **Codespaces** option and selecting the **Create codespace on main** option.
 
 ![Dialog showing buttons to create a codespace](./images/who-will-pay.webp?WT.mc_id=academic-105485-koreyst)
+
+Github Codespaces will automatically open the Visual Studio Code online version, with the cloned repository. The environment will be ready to execute the code from this bootcamp.
+
+If you selected this option, you can continue with the Azure OpenAI setup instructions below.
 
 > [!CAUTION]
 > Storing Your API Keys
@@ -71,5 +75,5 @@ If this is your first time working with the Azure OpenAI service, please follow 
 
 Now that you have completed the needed steps to complete this course, let's get started with the [laboratories](../01-laboratories/README.md).
 
-> **NOTE**:
+> [!NOTE]
 > This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information read the Code of Conduct FAQ or contact [Email opencode](opencode@microsoft.com) with any additional questions or comments.
