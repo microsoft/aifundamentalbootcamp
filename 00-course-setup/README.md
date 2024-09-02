@@ -25,7 +25,7 @@ Github Codespaces will automatically open the Visual Studio Code online version,
 If you selected this option, you can continue with the Azure OpenAI setup instructions below.
 
 > [!CAUTION]
-> Storing Your API Keys
+> **Storing Your API Keys**
 >
 > Keeping your API keys safe and secure is important when building any type of application. We recommend not to store any API keys directly in your code. Committing those details to a public repository could result in security issues and even unwanted costs if used by a bad actor.
 
@@ -56,7 +56,7 @@ We recommend using the [Visual Studio Code (VS Code)](https://code.visualstudio.
 >
 > If VS Code suggests you re-open the repository in a container, decline this request in order to use the locally installed version of Python.
 
-#### 2.2.B Running in a container
+#### 2.2.B. Running in a container
 
 > [!NOTE]  
 > If you are using your local Visual Studio Code and local Python, you can skip this section.
