@@ -4,6 +4,9 @@
 	"name": "ai fundamental bootcamp codespace container",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
 	"image": "mcr.microsoft.com/devcontainers/universal:2-linux",
+	"hostRequirements": {
+		"cpus": 4
+	},
 	"features": {
 		"ghcr.io/devcontainers/features/azure-cli:1": {
 			"installBicep": true,
