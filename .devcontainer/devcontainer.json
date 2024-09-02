@@ -9,7 +9,8 @@
 	},
 	"features": {
 		"ghcr.io/devcontainers/features/azure-cli:1": {
-			"installBicep": true,
+			// // Enable the following section if you want to install Bicep in your container.
+			//"installBicep": true,
 			"version": "latest"
 		},
 		// // Enable the following section if you want to use Conda in your container.
