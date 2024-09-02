@@ -1,0 +1,5 @@
+ipywidgets==8.1.5
+tqdm==4.66.5
+python-dotenv==1.0.1
+tiktoken==0.7.0
+openai==1.43.0
