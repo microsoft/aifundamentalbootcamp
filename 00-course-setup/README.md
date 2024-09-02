@@ -14,7 +14,7 @@ To start taking this course, you will need to complete the following steps.
 
 To avoid any dependency issues when running the code, we recommend running this course in a [GitHub Codespaces](https://github.com/features/codespaces?WT.mc_id=academic-105485-koreyst).
 
-This can be created by selecting the `Code` option on your forked version of this repo, selecting the **Codespaces** option and selecting the **Create codespace on main** option.
+This can be created by selecting the **Code** option on your forked version of this repo, selecting the **Codespaces** option and selecting the **Create codespace on main** option.
 
 ![Dialog showing buttons to create a codespace](./images/who-will-pay.webp?WT.mc_id=academic-105485-koreyst)
 
@@ -40,7 +40,9 @@ Once you have everything checked out, you can get started!
 We recommend using the [Visual Studio Code (VS Code)](https://code.visualstudio.com/) editor with the [Python support extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python) installed for this course. This is, however, more of a recommendation and not a definite requirement
 
 > **Note**: By opening the course repository in VS Code, you have the option to set the project up within a container. This is because of the [special `.devcontainer`](https://code.visualstudio.com/docs/devcontainers/containers?itemName=ms-python.python) directory found within the course repository. More on this later.
+>
 > **Note**: Once you clone and open the directory in VS Code, it will automatically suggest you install a Python support extension.
+>
 > **Note**: If VS Code suggests you re-open the repository in a container, decline this request in order to use the locally installed version of Python.
 
 ### Running in a container
@@ -51,7 +53,7 @@ One of the best ways to keep your API keys secure when using GitHub Codespaces i
 
 ## Lessons and Technical Requirements
 
-The course has multiple coding lessons using Python and Azure OpenAI Service.
+The course has multiple coding lessons using mainly Python and Azure OpenAI Service.
 
 You will need access to the Azure OpenAI service and an API key to run this code. You can apply to get access by [completing this application](https://azure.microsoft.com/products/ai-services/openai-service).
 
