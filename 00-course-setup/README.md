@@ -73,7 +73,7 @@ If this is your first time working with the Azure OpenAI service, please follow 
 
 ### 4. Configure the required LLM variables
 
-To properly run the code from this bootcamp, some LLM variables needs to be set first. Follow this [instructions](./SETUP.md) before executing the labs.
+To properly run the code from this bootcamp, some LLM variables needs to be set first. Follow these [instructions](./SETUP.md) before executing the labs.
 
 ## Let's Get Started
 
