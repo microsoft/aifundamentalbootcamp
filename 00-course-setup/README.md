@@ -65,11 +65,15 @@ An alternative to setting everything up on your computer or Codespace is to use 
 
 One of the best ways to keep your API keys secure when using GitHub Codespaces is by using Codespace Secrets. Please follow the [Codespaces secrets management](https://docs.github.com/en/codespaces/managing-your-codespaces/managing-secrets-for-your-codespaces) guide to learn more about this.
 
-### 3. Using the Azure OpenAI Service for the first time
+### 3. Using the Azure OpenAI Service
 
 You will need access to the Azure OpenAI service and an API key to run this code. You can apply to get access by [completing this application](https://azure.microsoft.com/products/ai-services/openai-service).
 
 If this is your first time working with the Azure OpenAI service, please follow this guide on how to [create and deploy an Azure OpenAI Service resource.](https://learn.microsoft.com/azure/ai-services/openai/how-to/create-resource?pivots=web-portal)
+
+### 4. Configure the required LLM variables
+
+To properly run the code from this bootcamp, some LLM variables needs to be set first. Follow this [instructions](./SETUP.md) before executing the labs.
 
 ## Let's Get Started
 
