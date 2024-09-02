@@ -8,7 +8,7 @@ To start taking this course, you will need to complete the following steps.
 
 ### 1. Fork this Repo
 
-[Fork this entire repo](https://github.com/microsoft/generative-ai-for-beginners/fork?WT.mc_id=academic-105485-koreyst) to your own GitHub account to be able to change any code and complete the challenges.
+[Fork this entire repo](https://github.com/microsoft/aifundamentalbootcamp/fork) to your own GitHub account to be able to change any code and complete the challenges.
 
 ### 2. Create a codespace (RECOMMENDED OPTION)
 
