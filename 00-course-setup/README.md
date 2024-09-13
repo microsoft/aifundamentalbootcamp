@@ -29,12 +29,21 @@ If you selected this option (CodeSpaces), you can continue with the Azure OpenAI
 >
 > Keeping your API keys safe and secure is important when building any type of application. We recommend not to store any API keys directly in your code. Committing those details to a public repository could result in security issues and even unwanted costs if used by a bad actor.
 
+One of the best ways to keep your API keys secure when using GitHub Codespaces is by using Codespace Secrets. Please follow the [Codespaces secrets management](https://docs.github.com/en/codespaces/managing-your-codespaces/managing-secrets-for-your-codespaces) guide to learn more about this.
+
 #### 2.2. How to Run locally on your computer
 
 > [!NOTE]  
 > If you are using Github Codespaces you can skip this section.
 
-To run the code locally on your computer, you need to have version 3.12 of [Python](https://www.python.org/downloads/).
+To run the code locally on your computer, you need to have the following tools:
+
+* Git
+* Node.js
+* NPM
+* TypeScript
+* Version 3.12 of [Python](https://www.python.org/downloads/)
+  * Python packages: ipywidgets, matplotlib, numpy, pandas, tqdm, python-dotenvv, openai, tiktoken, plotly, scikit-learn, pandas
 
 To then use the repository, you need to clone it:
 
@@ -61,7 +70,7 @@ We recommend using the [Visual Studio Code (VS Code)](https://code.visualstudio.
 > [!NOTE]  
 > If you are using your local Visual Studio Code and local Python, you can skip this section.
 
-One of the best ways to keep your API keys secure when using GitHub Codespaces is by using Codespace Secrets. Please follow the [Codespaces secrets management](https://docs.github.com/en/codespaces/managing-your-codespaces/managing-secrets-for-your-codespaces) guide to learn more about this.
+An alternative to setting everything up on your computer or Codespace is to use a container. The special `.devcontainer` folder within the course repository makes it possible for VS Code to set up the project within a container. This will require the installation of Docker, and quite frankly, it involves a bit of work, so we recommend this only to those with experience working with containers.
 
 ### 3. Using the Azure OpenAI Service
 
