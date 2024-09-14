@@ -1,14 +1,16 @@
-# Project
+# Get Hands-On with AI Apps – An App Innovation Bootcamp
 
-> This repo has been populated by an initial template to help get you started. Please
-> make sure to update the content to build a great experience for community-building.
+This initiative is not merely about enhancing skills; it is about spearheading the future of innovation. We are commencing this journey with a special bootcamp designed to elevate foundational AI skills. This bootcamp will offer a dynamic, hands-on experience, allowing your team to immerse themselves in AI technologies that will drive the next wave of application innovation.
 
-As the maintainer of this project, please make a few updates:
+## Getting Started
 
-- Improving this README.MD file to provide a great experience
-- Updating SUPPORT.MD with content about this project's support experience
-- Understanding the security reporting process in SECURITY.MD
-- Remove this section from the README
+This LevelUP will be a guided session with 8 lessons and laboratories.
+
+We have created a **[Course Setup](./00-course-setup/README.md)** section to help you with setting up your development environment.
+
+## Reference
+
+The material for this LevelUP session is derived from the [Generative AI for Beginners](https://github.com/microsoft/generative-ai-for-beginners) repository. This session is designed to provide a foundational understanding of Large Language Models and their practical applications. Upon completion, participants are encouraged to explore the repository at their own pace to gain a more comprehensive understanding.
 
 ## Contributing
 
