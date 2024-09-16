@@ -1,3 +1,42 @@
-version https://git-lfs.github.com/spec/v1
-oid sha256:8d2d9f4ef2d62a99774756cc907659e1fbb2d1cf23e75f713f754bd39428a239
-size 1406
+// For format details, see https://aka.ms/devcontainer.json. For config options, see the
+// README at: https://github.com/devcontainers/templates/tree/main/src/universal
+{
+	"name": "ai fundamental bootcamp codespace container",
+	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
+	"image": "mcr.microsoft.com/devcontainers/universal:2-linux",
+	"hostRequirements": {
+		"cpus": 4
+	},
+	"features": {
+		"ghcr.io/devcontainers/features/azure-cli:1": {
+			// // Enable the following section if you want to install Bicep in your container.
+			//"installBicep": true,
+			"version": "latest"
+		},
+		"ghcr.io/devcontainers/features/powershell:1": {
+			"version": "7.4"
+		}
+	},
+
+	// Features to add to the dev container. More info: https://containers.dev/features.
+	// "features": {},
+
+	// Use 'forwardPorts' to make a list of ports inside the container available locally.
+	// "forwardPorts": [],
+
+	// Use 'postCreateCommand' to run commands after the container is created.
+	"postCreateCommand": "pip install --user --requirement requirements.txt",
+
+	// Configure tool-specific properties.
+	"customizations": {		
+		"vscode": {
+			"extensions": [
+				"ms-python.python",
+				"ms-toolsai.jupyter"
+			]
+		}
+	}
+
+	// Uncomment to connect as root instead. More info: https://aka.ms/dev-containers-non-root.
+	// "remoteUser": "root"
+}
