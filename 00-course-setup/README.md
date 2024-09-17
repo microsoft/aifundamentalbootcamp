@@ -84,7 +84,7 @@ To properly run the code from this bootcamp, some LLM variables needs to be set 
 
 ## Let's Get Started
 
-Now that you have completed the needed steps to complete this course, let's get started with the [laboratories](../01-laboratories/README.md).
+Now that you have completed the needed steps to complete this course, let's get started with the [laboratories](../01-laboratories/).
 
 > [!NOTE]
 > This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information read the Code of Conduct FAQ or contact [Email opencode](opencode@microsoft.com) with any additional questions or comments.
