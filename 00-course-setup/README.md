@@ -14,11 +14,11 @@ To start taking this course, you will need to complete the following steps.
 
 #### 2.1. Create a Github Codespaces environment (RECOMMENDED OPTION)
 
-To avoid any dependency issues when running the code, we recommend running this course in a [GitHub Codespaces](https://github.com/features/codespaces?WT.mc_id=academic-105485-koreyst).
+To avoid any dependency issues when running the code, we recommend running this course in a [GitHub Codespaces](https://github.com/features/codespaces).
 
 This can be created by selecting the **Code** option on your forked version of this repo, selecting the **Codespaces** option and selecting the **Create codespace on main** option.
 
-![Dialog showing buttons to create a codespace](./images/who-will-pay.webp?WT.mc_id=academic-105485-koreyst)
+![Dialog showing buttons to create a codespace](./images/who-will-pay.webp)
 
 Github Codespaces will automatically open the Visual Studio Code online version, with the cloned repository. The environment will be ready to execute the code from this bootcamp.
 
@@ -78,13 +78,12 @@ You will need access to the Azure OpenAI service and an API key to run this code
 
 If this is your first time working with the Azure OpenAI service, please follow this guide on how to [create and deploy an Azure OpenAI Service resource.](https://learn.microsoft.com/azure/ai-services/openai/how-to/create-resource?pivots=web-portal)
 
-### 4. Configure the required LLM variables
+### 4. Finalize the configuration settings for the Visual Studio Code environment
 
-To properly run the code from this bootcamp, some LLM variables needs to be set first. Follow these [instructions](./SETUP.md) before executing the labs.
+> [!IMPORTANT]  
+> To properly run the code from this bootcamp follow these **[instructions](./SETUP.md)** before executing the labs.
 
-## Let's Get Started
-
-Now that you have completed the needed steps to complete this course, let's get started with the [laboratories](../01-laboratories/).
+## Disclaimer
 
 > [!NOTE]
 > This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/). For more information read the Code of Conduct FAQ or contact [Email opencode](opencode@microsoft.com) with any additional questions or comments.
