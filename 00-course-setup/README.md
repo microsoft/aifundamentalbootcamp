@@ -33,7 +33,7 @@ One of the best ways to keep your API keys secure when using GitHub Codespaces i
 
 #### 2.2. How to Run locally on your computer
 
-> [!NOTE]  
+> [!IMPORTANT]
 > If you are using Github Codespaces you can skip **section 2.2**.
 
 To run the code locally on your computer, you need to have the following tools:
