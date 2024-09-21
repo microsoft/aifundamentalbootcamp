@@ -34,7 +34,7 @@ One of the best ways to keep your API keys secure when using GitHub Codespaces i
 #### 2.2. How to Run locally on your computer
 
 > [!NOTE]  
-> If you are using Github Codespaces you can skip this section.
+> If you are using Github Codespaces you can **section 2.2**.
 
 To run the code locally on your computer, you need to have the following tools:
 
@@ -63,9 +63,6 @@ We recommend using the [Visual Studio Code (VS Code)](https://code.visualstudio.
 > If VS Code suggests you re-open the repository in a container, decline this request in order to use the locally installed version of Python.
 
 #### 2.2.B. Running in a container
-
-> [!NOTE]  
-> If you are using your local Visual Studio Code and local Python, you can skip this section.
 
 An alternative to setting everything up on your computer or Codespace is to use a container. The special `.devcontainer` folder within the course repository makes it possible for VS Code to set up the project within a container. This will require the installation of Docker, and quite frankly, it involves a bit of work, so we recommend this only to those with experience working with containers.
 
