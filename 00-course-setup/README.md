@@ -39,9 +39,6 @@ One of the best ways to keep your API keys secure when using GitHub Codespaces i
 To run the code locally on your computer, you need to have the following tools:
 
 * Git
-* Node.js
-* NPM
-* TypeScript
 * Version 3.12 of [Python](https://www.python.org/downloads/)
   * Python packages: ipywidgets, matplotlib, numpy, pandas, tqdm, python-dotenvv, openai, tiktoken, plotly, scikit-learn, pandas
 
