@@ -28,7 +28,7 @@ Assignments **may** also be setup to work against one or more Large Language Mod
 
 | Signup | Cost | API Key | Playground | Comments |
 |:---|:---|:---|:---|:---|
-| [Azure](https://aka.ms/azure/free)| [Pricing](https://azure.microsoft.com/pricing/details/cognitive-services/openai-service/)| [SDK Quickstart](https://learn.microsoft.com/azure/ai-services/openai/quickstart)| [Studio Quickstart](https://learn.microsoft.com/azure/ai-services/openai/quickstart) |  [Must Apply Ahead For Access](https://learn.microsoft.com/azure/ai-services/openai/)|
+| [Azure](https://aka.ms/azure/free)| [Pricing](https://azure.microsoft.com/pricing/details/cognitive-services/openai-service/)| [SDK Quickstart](https://learn.microsoft.com/azure/ai-services/openai/quickstart)| [Studio Quickstart](https://learn.microsoft.com/azure/ai-services/openai/quickstart) | [Apply Ahead For Access](https://learn.microsoft.com/azure/ai-services/openai/) |
 | | | | | |
 
 Follow the directions below to **configure** this repository for use with Azure OpenAI:
