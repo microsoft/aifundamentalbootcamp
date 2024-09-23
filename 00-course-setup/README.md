@@ -29,7 +29,7 @@ If you selected this option (CodeSpaces), you can continue with the Azure OpenAI
 >
 > Keeping your API keys safe and secure is important when building any type of application. We recommend not to store any API keys directly in your code. Committing those details to a public repository could result in security issues and even unwanted costs if used by a bad actor.
 
-One of the best ways to keep your API keys secure when using GitHub Codespaces is by using Codespace Secrets. Please follow the [Codespaces secrets management](https://docs.github.com/en/codespaces/managing-your-codespaces/managing-secrets-for-your-codespaces) guide to learn more about this.
+One of the best ways to keep your API keys secure when using GitHub Codespaces is by using Codespace Secrets. Instructions are provided below for those that choose to run their code locally on their computer, but if this is your chosen method, it is critical that you obfuscate your secrets!  Never use and commit an .env file with hard coded values in it to your fork, as by default, the fork is public.  
 
 #### 2.2. How to Run locally on your computer
 
