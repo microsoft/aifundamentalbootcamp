@@ -113,8 +113,8 @@ Now update the environment variables from the `.env` file to reflect the **Deplo
 AZURE_OPENAI_API_VERSION='2024-02-15-preview' # Default is set!
 AZURE_OPENAI_API_KEY='<API-KEY-STRING>'
 AZURE_OPENAI_ENDPOINT='https://<endpoint-url>.openai.azure.com/'
-AZURE_OPENAI_DEPLOYMENT='gpt-4-turbo-2024-04-09' 
-AZURE_OPENAI_EMBEDDINGS_DEPLOYMENT='text-embedding-ada-002'
+AZURE_OPENAI_DEPLOYMENT='mygpt4turbo' 
+AZURE_OPENAI_EMBEDDINGS_DEPLOYMENT='mytextembedding'
 ```
 
 **Don't forget to save the .env file when done**. You can now exit the file and follow your instructor's instructions.
