@@ -75,13 +75,14 @@ This will take you to the Azure OpenAI Studio website, where we'll find the othe
 ### 2.3 Get Azure OpenAI deployments: From Studio
 
 1. Navigate to [Azure OpenAI Studio](https://oai.azure.com) **from your resource** as described above.
-1. Click the **Deployments** tab (sidebar, left) to view currently deployed models.
-1. If your desired model is not deployed, use **Create new deployment** to deploy it. If using the new portal, use **Deploy model** button.
-1. You will need a _text-generation_ model - deploy the following model with the same name: **gpt-4-turbo-2024-04-09**
-1. You will need a _text-embedding_ model - deploy the following model with the same name: **text-embedding-ada-002**
+2. Click the **Deployments** tab (sidebar, left) to view currently deployed models.
+3. If your desired model is not deployed, use **Create new deployment** to deploy it. If using the new portal, use **Deploy model** button.
+4. You will need a _text-generation_ model - deploy the following model with the same name: **gpt-4-turbo-2024-04-09**
+5. You will need a _text-embedding_ model - deploy the following model with the same name: **text-embedding-ada-002**
+6.  Increase the token rate limit on the **gpt-4-turbo-2024-04-09** model deployment to at least 70k.  See below for example. 
 
 ![Terminal](./images/model-deployment.jpg)
-
+![Terminal](./images/tokenrate.jpg)
 # 2.4 Preferred:  Using Codespace secrets
 
 As mentioned, this course requires several environment variables.  After completing the steps above, you should now have all of the variables needed, and you can setup codespace secrets to both use, and protect, these sensitive values.  
