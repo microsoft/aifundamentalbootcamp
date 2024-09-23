@@ -84,6 +84,26 @@ This will take you to the Azure OpenAI Studio website, where we'll find the othe
 
 # 2.4 Preferred:  Using Codespace secrets
 
+As mentioned, this course requires several environment variables.  After completing the steps above, you should now have all of the variables needed, and you can setup codespace secrets to both use, and protect, these sensitive values.  
+
+1.  In your fork of the main repo, go to the settings button in the top menu bar.
+![Terminal](./images/cs5.jpg)
+3.  scroll down to Security/"Secrets and Variables"/Codespaces.  You will need to create the secrets below.  Take care to name them exactly as shown, as these will be the names of the env variables inside of the codespaces container once created.
+![Terminal](./images/cs2.jpg)
+![Terminal](./images/cs4.jpg)
+5.  These are the recommended values for the secrets: (do not use quotes, etc.)
+
+| Variable  | Description  |
+| :--- | :--- |
+| AZURE_OPENAI_API_VERSION | 2024-02-15-preview |
+| AZURE_OPENAI_API_KEY | This is the authorization key for using Azure OpenAI (obtained from step 2.2 - sub value) |
+| AZURE_OPENAI_ENDPOINT | https://your.openai.azure.com/ (obtained from step 2.2 - sub value) |
+| AZURE_OPENAI_DEPLOYMENT | gpt-4 turbo-2024-04-09 |
+| AZURE_OPENAI_EMBEDDINGS_DEPLOYMENT | text-embedding-ada-002 |
+| | |
+
+
+
 # 2.5 Alternative:  Local Computer Setup
 
 If you are running the code locally on your computer, complete the steps below.  **Codespace users can ignore this step.**
@@ -94,9 +114,8 @@ We assume that you have already read the guidance above, created the Azure OpenA
 
 The next step is to configure your **local environment variables** as follows:
 
-1. Click your [GitHub CodeSpaces container](https://github.com/codespaces).
 1. Inside the online Visual Studio Code **Explorer** section (to the left), look in the root folder for a `.env.copy` file
-1. Copy that file to `.env` using the command below. This file is _gitignore-d_, keeping secrets safe.
+2. Copy that file to `.env` using the command below. This file is _gitignore-d_, keeping secrets safe.
 
 Open the Codespaces Visual Studio Code **Terminal** cli and execute the following command:
 
@@ -104,7 +123,7 @@ Open the Codespaces Visual Studio Code **Terminal** cli and execute the followin
    cp .env.copy .env
    ```
 
-1. Fill in the values (replace placeholders on right side of `=`) as described in the next section.
+3. Fill in the values (replace placeholders on right side of `=`) as described in the next section.
 
 ### Populate `.env` file
 
