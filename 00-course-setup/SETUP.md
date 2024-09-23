@@ -72,9 +72,11 @@ Let's take a quick look at the variable names to understand what they represent:
 | AZURE_OPENAI_API_VERSION | This is the Azure OpenAI API version. _This value is prepopulated, no need to modify it_ |
 | AZURE_OPENAI_API_KEY | This is the authorization key for using Azure OpenAI |
 | AZURE_OPENAI_ENDPOINT | This is the deployed endpoint URL for an Azure OpenAI resource |
-| AZURE_OPENAI_DEPLOYMENT | This is the _text generation_ **GPT-4 turbo-2024-04-09** model deployment name |
-| AZURE_OPENAI_EMBEDDINGS_DEPLOYMENT | This is the _text embeddings_ **text-embedding-ada-002** model deployment name |
+| AZURE_OPENAI_DEPLOYMENT | This is the _text generation_ **GPT-4 turbo-2024-04-09** model deployment name (see example below) |
+| AZURE_OPENAI_EMBEDDINGS_DEPLOYMENT | This is the _text embeddings_ **text-embedding-ada-002** model deployment name (see example below)|
 | | |
+
+![Terminal](./images/gpt-4-setup.jpg)
 
 ### 2.3 Get Azure OpenAI access values: From Portal
 
@@ -111,8 +113,8 @@ Now update the environment variables from the `.env` file to reflect the **Deplo
 AZURE_OPENAI_API_VERSION='2024-02-15-preview' # Default is set!
 AZURE_OPENAI_API_KEY='<API-KEY-STRING>'
 AZURE_OPENAI_ENDPOINT='https://<endpoint-url>.openai.azure.com/'
-AZURE_OPENAI_DEPLOYMENT='gpt-4-turbo-2024-04-09' 
-AZURE_OPENAI_EMBEDDINGS_DEPLOYMENT='text-embedding-ada-002'
+AZURE_OPENAI_DEPLOYMENT='mygpt4turbo' 
+AZURE_OPENAI_EMBEDDINGS_DEPLOYMENT='mytextembedding'
 ```
 
 **Don't forget to save the .env file when done**. You can now exit the file and follow your instructor's instructions.
