@@ -62,6 +62,8 @@ The Azure OpenAI endpoint and key values will be found in the [Azure Portal](htt
 1. Use the **KEY 1** value for **AZURE_OPENAI_API_KEY**.
 1. Use the **Endpoint** value for **AZURE_OPENAI_ENDPOINT**.
 
+![Terminal](./images/aoai-deployment.jpg)
+
 Next, we need to create deployments from the Azure OpenAI models.
 
 1. Click the **Model deployments** option in the sidebar (left menu) for Azure OpenAI resource.
@@ -69,8 +71,6 @@ Next, we need to create deployments from the Azure OpenAI models.
 1. (Optional) You can directly navigate to the [Azure OpenAI Studio website](https://oai.azure.com).
 
 This will take you to the Azure OpenAI Studio website, where we'll find the other values as described below.
-
-![Terminal](./images/aoai_deployment.jpg)
 
 ### 2.3 Get Azure OpenAI deployments: From Studio
 
@@ -80,7 +80,7 @@ This will take you to the Azure OpenAI Studio website, where we'll find the othe
 1. You will need a _text-generation_ model - deploy the following model with the same name: **gpt-4 turbo-2024-04-09**
 1. You will need a _text-embedding_ model - deploy the following model with the same name: **text-embedding-ada-002**
 
-![Terminal](./images/model_deployment.jpg)
+![Terminal](./images/model-deployment.jpg)
 
 # 2.4 Preferred:  Using Codespace secrets
 
