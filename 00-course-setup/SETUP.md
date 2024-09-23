@@ -46,7 +46,7 @@ You will need to set values for several environment variables for this class to 
 | AZURE_OPENAI_API_VERSION | This is the Azure OpenAI API version. For this class, we are using '2024-02-15-preview' |
 | AZURE_OPENAI_API_KEY | This is the authorization key for using Azure OpenAI |
 | AZURE_OPENAI_ENDPOINT | This is the deployed endpoint URL for an Azure OpenAI resource |
-| AZURE_OPENAI_DEPLOYMENT | This is the _text generation_ **GPT-4 turbo-2024-04-09** model deployment name.  We recommend that you name your deployment the same.  (see example below) |
+| AZURE_OPENAI_DEPLOYMENT | This is the _text generation_ **gpt-4-turbo-2024-04-09** model deployment name.  We recommend that you name your deployment the same.  (see example below) |
 | AZURE_OPENAI_EMBEDDINGS_DEPLOYMENT | This is the _text embeddings_ **text-embedding-ada-002** model deployment name We recommend that you name your deployment the same. (see example below)|
 | | |
 
@@ -77,7 +77,7 @@ This will take you to the Azure OpenAI Studio website, where we'll find the othe
 1. Navigate to [Azure OpenAI Studio](https://oai.azure.com) **from your resource** as described above.
 1. Click the **Deployments** tab (sidebar, left) to view currently deployed models.
 1. If your desired model is not deployed, use **Create new deployment** to deploy it. If using the new portal, use **Deploy model** button.
-1. You will need a _text-generation_ model - deploy the following model with the same name: **gpt-4 turbo-2024-04-09**
+1. You will need a _text-generation_ model - deploy the following model with the same name: **gpt-4-turbo-2024-04-09**
 1. You will need a _text-embedding_ model - deploy the following model with the same name: **text-embedding-ada-002**
 
 ![Terminal](./images/model-deployment.jpg)
@@ -98,7 +98,7 @@ As mentioned, this course requires several environment variables.  After complet
 | AZURE_OPENAI_API_VERSION | 2024-02-15-preview |
 | AZURE_OPENAI_API_KEY | This is the authorization key for using Azure OpenAI (obtained from step 2.2 - sub value) |
 | AZURE_OPENAI_ENDPOINT | https://your.openai.azure.com/ (obtained from step 2.2 - sub value) |
-| AZURE_OPENAI_DEPLOYMENT | gpt-4 turbo-2024-04-09 |
+| AZURE_OPENAI_DEPLOYMENT | gpt-4-turbo-2024-04-09 |
 | AZURE_OPENAI_EMBEDDINGS_DEPLOYMENT | text-embedding-ada-002 |
 | | |
 
