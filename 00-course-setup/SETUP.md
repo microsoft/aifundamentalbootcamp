@@ -43,7 +43,7 @@ You will need to set values for several environment variables for this class to 
 
 | Variable  | Description  |
 | :--- | :--- |
-| AZURE_OPENAI_API_VERSION | This is the Azure OpenAI API version. |
+| AZURE_OPENAI_API_VERSION | This is the Azure OpenAI API version. For this class, we are using '2024-02-15-preview' |
 | AZURE_OPENAI_API_KEY | This is the authorization key for using Azure OpenAI |
 | AZURE_OPENAI_ENDPOINT | This is the deployed endpoint URL for an Azure OpenAI resource |
 | AZURE_OPENAI_DEPLOYMENT | This is the _text generation_ **GPT-4 turbo-2024-04-09** model deployment name.  We recommend that you name your deployment the same.  (see example below) |
@@ -70,6 +70,8 @@ Next, we need to create deployments from the Azure OpenAI models.
 
 This will take you to the Azure OpenAI Studio website, where we'll find the other values as described below.
 
+![Terminal](./images/aoai_deployment.jpg)
+
 ### 2.3 Get Azure OpenAI deployments: From Studio
 
 1. Navigate to [Azure OpenAI Studio](https://oai.azure.com) **from your resource** as described above.
@@ -78,13 +80,13 @@ This will take you to the Azure OpenAI Studio website, where we'll find the othe
 1. You will need a _text-generation_ model - deploy the following model with the same name: **gpt-4 turbo-2024-04-09**
 1. You will need a _text-embedding_ model - deploy the following model with the same name: **text-embedding-ada-002**
 
-![Terminal](./images/gpt-4-setup.jpg)
+![Terminal](./images/model_deployment.jpg)
 
-# 2.4 Using Codespace secrets
+# 2.4 Preferred:  Using Codespace secrets
 
-# Option:  Local Computer Setup
+# 2.5 Alternative:  Local Computer Setup
 
-If you are running the code locally on your computer, complete the steps below.  Codespace users can ignore this step.
+If you are running the code locally on your computer, complete the steps below.  **Codespace users can ignore this step.**
 
 ### Create `.env` file
 
@@ -104,23 +106,7 @@ Open the Codespaces Visual Studio Code **Terminal** cli and execute the followin
 
 1. Fill in the values (replace placeholders on right side of `=`) as described in the next section.
 
-> [!NOTE]
-> If you use GitHub Codespaces, you have the option to save environment variables as **Codespaces secrets** associated with this repository.
->
-> In that case, you won't need to setup a local `.env` file.
-> **Note that this option works only if you use GitHub Codespaces.**
->
-> You will still need to setup the `.env` file if you use your local Visual Studio Code tool.
-
 ### Populate `.env` file
-
-
-
-
-
-
-
-
 
 Now update the environment variables from the `.env` file to reflect the **Deployment name** used from above. This will typically be the same as the model name unless you changed it explicitly. So, as an example, you might have:
 
@@ -129,11 +115,11 @@ Now update the environment variables from the `.env` file to reflect the **Deplo
 AZURE_OPENAI_API_VERSION='2024-02-15-preview' # Default is set!
 AZURE_OPENAI_API_KEY='<API-KEY-STRING>'
 AZURE_OPENAI_ENDPOINT='https://<endpoint-url>.openai.azure.com/'
-AZURE_OPENAI_DEPLOYMENT='mygpt4turbo' 
-AZURE_OPENAI_EMBEDDINGS_DEPLOYMENT='mytextembedding'
+AZURE_OPENAI_DEPLOYMENT='gpt-4 turbo-2024-04-09' 
+AZURE_OPENAI_EMBEDDINGS_DEPLOYMENT='text-embedding-ada-002'
 ```
 
-**Don't forget to save the .env file when done**. You can now exit the file and follow your instructor's instructions.
+**Don't forget to save the .env file when done BUT NEVER COMMIT THE CHANGES TO YOUR PUBLIC BRANCH!!!**. You can now exit the file and follow your instructor's instructions.
 
 ## Let's Get Started
 
